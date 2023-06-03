@@ -11,6 +11,6 @@ db.sync()
   .catch((err) => console.log(err));
 
 const PORT = +process.env.PORT;
-app.listen(3100, () => {
+app.listen(5432, () => {
   console.log(`App running on port ${PORT}`);
 });
